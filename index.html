@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="script.js"></script>
+</head>
+
+<title>
+    Random Quote Generator 
+</title>
+
+<style>
+    #tableMain{
+        width: 60%;
+        margin: 0px auto;
+        background-color: lightskyblue;
+    }
+    #quote-box{
+        border: 1px solid;
+        padding: 20px;
+    }
+    .source{
+        /* apply css */
+        font-family: "Times New Roman", Times, serif;
+        font: inherit;
+    }
+    .citation{
+        /* apply css */
+        font-family: Tahoma, Verdana, sans-serif;
+;
+    }
+    .year{
+        /* apply css */
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+</style>
+</head>
+<body onload="printQuote()">
+    <div>
+        <table id="tableMain" >
+            <tr>
+                <td style="width: 75%;">
+                <p><u>Random Quotes 
+                    <br> Happy Lunar new year - Year of the Tiger - From The Bach Doan</u></p>
+                </td>
+                <td>
+                    <button onclick="printQuote()">Next Quote</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+<div id="quote-box"></div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+
+</html>
